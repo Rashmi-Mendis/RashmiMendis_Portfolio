@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Portfolio Website</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <link rel="stylesheet"  href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+  
+  </head>
+<body>
+    <header class="header">
+    <a href="#" class="logo"> <img src="images/logo.png"> </a>
+
+    <nav class="navbar">
+      <a href="index.html" style="--i:1" class="active">Home</a>
+      <a href="portfolio.html" style="--i:2">Portfolio</a>
+      <a href="services.html" style="--i:3">Services</a>
+      <a href="contact.html" style="--i:4">Contact</a>
+
+    </nav>
+  </header>
+  <section class="about">
+    <div class="about-img">
+      <img src="images/pic.jpg">
+    </div>
+    <div class="about-txt">
+      <h2>About <span>Me</span> </h2>
+      <h4>Web Developer</h4>
+      <p>My 3 years of professional experience at UCIARS Institute, I'm a web developer passionate about building user-friendly and impactful applications. Proficient in HTML, CSS, JavaScript, and Python, I enjoy tackling both front-end and back-end challenges. In my recent project, I developed a web-based tool with specialize factors, improving efficiency by 20% and boosting user satisfaction. I'm eager to contribute my skills to projects that make a positive difference.</p>
+
+      <audio src="audio/alert.mp3" id="audio" controls></audio>   
+      <button onclick="playAudio();" ondblclick="location.href='skills.html'" class="btn-box"> Learn More </button>
+         <script src="script.js"></script>
+      <br><br><br><br>
+       <button onclick="playAudio();" ondblclick="location.href ='images/Rashmi_Mendis.pdf'" class="btn-box"> Download My Resume </button>  
+    </div>
+  </section>  
+</body>
+</html>

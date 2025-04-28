@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Portfolio Website</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <link rel="stylesheet"  href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+  
+  </head>
+<body>
+
+    <header class="header">
+      <a href="#" class="logo"> <img src="images/logo.png"> </a>
+
+    <nav class="navbar">
+      <a href="index.html" style="--i:1" class="active">Home</a>
+      <a href="portfolio.html" style="--i:2">Portfolio</a>
+      <a href="services.html" style="--i:3">Services</a>
+      <a href="contact.html" style="--i:4">Contact</a>
+
+    </nav>
+  </header>
+
+  <div class="container-contact">
+    <div class="item">
+      <div class="contact">
+        <div class="first-txt">Let's get in touch</div>
+        <br> <br>
+        <img src="images/pngegg.png" class="image">
+        <div class="social-links">
+          <br> <br>
+          <span class="secnd-txt">Connect with Me:</span>
+          <ul class="social-media">
+            <li> <a href="https://www.facebook.com/rashmi.mendis.94?mibextid=ZbWKwL"><i class='bx bxl-facebook' style='color:#b69aca' ></i></a> </li>
+            <li> <a href="https://wa.me/qr/MHU5IHBGDAKVG1"><i class='bx bxl-whatsapp' style='color:#b69aca' ></i></a> </li>
+            <li> <a href="https://www.linkedin.com/in/rashmi-mendis-465182293/"><i class='bx bxl-linkedin' style='color:#b69aca' ></i></a> </li>
+            <li> <a href="https://github.com/Rashmi-Mendis/"><i class='bx bxl-github' style='color:#b69aca'  ></i></a> </li>
+          </ul>
+        </div>
+      </div>
+      <div class="submit-form">
+        <h4 class="third-txt">Contact Me</h4>
+        <form action="">
+
+          <div class="input-box">
+            <input type="text" class="input" name="txt" required>   
+            <label for="">Name</label>
+          </div>   
+
+          <div class="input-box">
+            <input type="email" class="input" name="txt" required>   
+            <label for="">Email</label>
+          </div> 
+
+          <div class="input-box">
+            <input type="tel" class="input" name="txt"required>   
+            <label for="">Phone</label>
+          </div> 
+
+          <div class="input-box">
+            <textarea name="" class="input" id="message" cols="30" rows="10" required></textarea>
+            <label for="">Message</label>
+          </div> 
+           <audio src="audio/alert.mp3" id="audio" controls></audio> 
+
+          <button onclick="playAudio()" type="submit"  class="submit-btn">Submit</button>
+          <script src="script.js"></script>
+
+        </form>
+      </div>
+    </div>
+    
+  </div>
+
+</body>
+</html>

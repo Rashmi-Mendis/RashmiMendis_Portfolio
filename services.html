@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Portfolio Website</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+  
+  </head>
+<body>
+    <header class="header">
+    <a href="#" class="logo"> <img src="images/logo.png"> </a>
+
+    <nav class="navbar">
+      <a href="index.html" style="--i:1" class="active">Home</a>
+      <a href="portfolio.html" style="--i:2">Portfolio</a>
+      <a href="services.html" style="--i:3">Services</a>
+      <a href="contact.html" style="--i:4">Contact</a>
+
+    </nav>
+  </header>
+  
+   <section>
+    <div class="services" id="services">
+      <div class="container">
+        <h1 class="sub-title">My <span>Services</span> </h1>
+        <div class="services-list">
+          <div>
+            <i class='bx bx-code' style='color:#b69aca' ></i>
+            <h2>Web Application Development</h2>
+            <p>Creating interactive web applications that offer functionalities beyond static websites, often involving back-end development using languages like Python, Ruby, Java, or PHP, and frameworks such as Django, Ruby on Rails, Spring Boot, or Laravel.</p><br><br>
+          
+            <audio src="audio/alert.mp3" id="audio" controls></audio>   
+            <button onclick="playAudio();" ondblclick="location.href='portfolio.html'" class="read">Learn More </button>
+         <script src="script.js"></script>
+          </div>
+          <div>
+            <i class='bx bx-crop' style='color:#b69aca' ></i>
+            <h2>UI/UX Design</h2>
+            <p>Focuses on creating user interfaces and user experiences for a variety of products, such as websites and mobile apps. They combine elements of graphic design, psychology, and engineering to create a product that looks good and is easy and enjoyable to use.</p><br><br>
+            <button onclick="playAudio();" ondblclick="location.href='portfolio.html'" class="read">Learn More </button>
+          </div>
+          <div>
+            <i class='bx bx-user-check' style='color:#b69aca' ></i>
+            <h2>Consultation and Training</h2>
+            <p>Offering consultation services to clients on web development strategies, technology choices, and best practices. Providing training sessions to empower clients to manage and update their websites independently.</p><br><br>
+            <button onclick="playAudio();" ondblclick="location.href='portfolio.html'" class="read">Learn More </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+</body>
+</html>

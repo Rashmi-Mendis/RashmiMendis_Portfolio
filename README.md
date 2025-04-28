@@ -1,6 +1,6 @@
 Project Title: Portfolio
 
-Project host link: https://rashmi-mendis.github.io/Portfolio/
+Project host link: https://rashmi-mendis.github.io/RashmiMendis_Portfolio/
 
 Project repository link: https://github.com/Rashmi-Mendis/RashmiMendis_Portfolio.git
 
